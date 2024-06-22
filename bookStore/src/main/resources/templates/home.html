@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for positioning */
+        .position-top-right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Book Store</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content area -->
+        <div class="row">
+            <div class="col-lg-9">
+                <h6>About Our Store</h6>
+                <p>
+                    Our bookstore offers a wide variety of books ranging from classic literature to the latest bestsellers. Whether you're a fiction enthusiast or a non-fiction reader, you'll find something to captivate your interest. Our knowledgeable staff is always ready to help you find your next great read.
+                </p>
+
+                <h6>Our Collection</h6>
+                <p>
+                    Explore our extensive collection of genres, including mystery, romance, science fiction, fantasy, and more. We also have a dedicated section for children's books, ensuring that young readers can find engaging and educational materials. Additionally, we offer a selection of rare and collectible books for the avid collector.
+                </p>
+
+                <h6>Special Offers</h6>
+                <p>
+                    Don't miss out on our special offers and discounts! We regularly update our promotions to give you the best deals on your favorite books. Sign up for our newsletter to stay informed about upcoming sales, new arrivals, and exclusive events.
+                </p>
+
+                <h6>Community Events</h6>
+                <p>
+                    Join us for community events such as book signings, readings, and workshops. Our bookstore serves as a hub for book lovers to come together and share their passion for reading. Check our events calendar to see what's happening this month.
+                </p>
+
+                <h6>Contact Us</h6>
+                <p>
+                    Have any questions or need assistance? Feel free to contact us through our website or visit us in person. We're always here to help you with your literary needs. Follow us on social media to stay connected and receive the latest updates from our bookstore.
+                </p>
+            </div>
+
+            <!-- Right column for New Book Register -->
+            <div class="col-lg-3 position-top-right">
+                <div class="card">
+                    <div class="card-header">
+                        New Book Register
+                    </div>
+                    <div class="card-body">
+                        <!-- Form for registering new books -->
+                        <form>
+                            <div class="form-group">
+                                <label for="bookTitle">Book Title</label>
+                                <input type="text" class="form-control" id="bookTitle" placeholder="Enter book title">
+                            </div>
+                            <div class="form-group">
+                                <label for="author">Author</label>
+                                <input type="text" class="form-control" id="author" placeholder="Enter author name">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
